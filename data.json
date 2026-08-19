@@ -1,0 +1,109 @@
+{
+  "assistant_name": "EcoBot",
+  "about": "EcoBot is a waste management assistant that helps users understand different waste types, how to segregate and recycle them correctly, and provides eco-friendly recommendations and suggestions for reducing waste at home, school, or work.",
+  "waste_categories": [
+    {
+      "type": "Biodegradable / Wet Waste",
+      "description": "Organic waste that decomposes naturally, such as food scraps, vegetable peels, garden waste, and leftover food.",
+      "recyclable": true,
+      "recycling_details": "Compost wet waste at home using a compost bin or pit. It decomposes into nutrient-rich manure that can be used for gardening. Community/municipal composting facilities also accept this waste separately.",
+      "disposal_recommendations": [
+        "Use a separate green/wet waste bin at home",
+        "Start a home composting setup for kitchen scraps",
+        "Avoid mixing wet waste with plastic or other dry waste",
+        "Do not dispose of wet waste in open drains"
+      ]
+    },
+    {
+      "type": "Non-Biodegradable / Dry Waste",
+      "description": "Waste that does not decompose easily, including paper, plastic, glass, metal, and cardboard.",
+      "recyclable": true,
+      "recycling_details": "Dry waste should be segregated by material type (paper, plastic, metal, glass) and given to recyclers or municipal dry-waste collection centers. Clean and dry the items before disposal to improve recyclability.",
+      "disposal_recommendations": [
+        "Rinse containers before recycling to remove food residue",
+        "Flatten cardboard boxes and plastic bottles to save space",
+        "Use a separate blue/dry waste bin",
+        "Avoid contaminating dry waste with wet/organic waste"
+      ]
+    },
+    {
+      "type": "E-Waste (Electronic Waste)",
+      "description": "Discarded electronic items such as old phones, batteries, chargers, computers, and appliances.",
+      "recyclable": true,
+      "recycling_details": "E-waste contains hazardous materials and valuable metals. It should never be thrown in regular trash. Drop it off at authorized e-waste collection centers or electronics stores offering take-back/recycling programs.",
+      "disposal_recommendations": [
+        "Never dispose of e-waste in regular household bins",
+        "Remove personal data from devices before recycling",
+        "Look for certified e-waste recyclers in your city",
+        "Consider donating working electronics instead of discarding them"
+      ]
+    },
+    {
+      "type": "Hazardous Waste",
+      "description": "Waste that is toxic, corrosive, flammable, or reactive, such as paints, pesticides, chemicals, and used batteries.",
+      "recyclable": false,
+      "recycling_details": "Hazardous waste requires special handling and cannot go through normal recycling or waste channels. It must be taken to designated hazardous waste collection facilities.",
+      "disposal_recommendations": [
+        "Store hazardous waste in original, labeled containers",
+        "Never pour chemicals down the drain",
+        "Contact your local municipal body for hazardous waste drop-off points",
+        "Keep hazardous waste away from children and pets"
+      ]
+    },
+    {
+      "type": "Plastic Waste",
+      "description": "Includes single-use plastics, packaging materials, plastic bottles, and bags.",
+      "recyclable": true,
+      "recycling_details": "Check the recycling code (1-7) on plastic items. PET (1) and HDPE (2) plastics are widely recyclable. Clean and segregate plastics before sending them to recycling units.",
+      "disposal_recommendations": [
+        "Reduce use of single-use plastics wherever possible",
+        "Carry reusable bags and bottles",
+        "Segregate plastic by type before recycling",
+        "Support brands using recyclable/biodegradable packaging"
+      ]
+    },
+    {
+      "type": "Medical / Biomedical Waste",
+      "description": "Waste generated from healthcare activities, such as used masks, syringes, and medicines.",
+      "recyclable": false,
+      "recycling_details": "Biomedical waste must be disposed of through authorized medical waste disposal services and should never be mixed with regular household or recyclable waste.",
+      "disposal_recommendations": [
+        "Use designated biomedical waste bins (usually red/yellow coded)",
+        "Never dispose of used masks or syringes in regular trash",
+        "Return expired medicines to pharmacies with take-back programs"
+      ]
+    }
+  ],
+  "general_tips": [
+    "Follow the 3 R's: Reduce, Reuse, Recycle",
+    "Segregate waste at source into wet, dry, hazardous, and e-waste categories",
+    "Compost organic waste whenever possible to reduce landfill burden",
+    "Avoid single-use plastics and opt for reusable alternatives",
+    "Support local recycling and composting initiatives in your community"
+  ],
+  "recommendations": [
+    "Set up at least two bins at home - one for wet waste and one for dry waste",
+    "Label bins clearly to encourage correct segregation by all household members",
+    "Donate usable items like clothes, books, and electronics instead of discarding them",
+    "Participate in community clean-up and recycling drives",
+    "Educate children about waste segregation from a young age"
+  ],
+  "faqs": [
+    {
+      "question": "Why is waste segregation important?",
+      "answer": "Segregating waste at the source makes recycling more efficient, reduces landfill waste, prevents contamination of recyclable materials, and helps recover valuable resources like compost, metals, and plastics."
+    },
+    {
+      "question": "Can I compost all kitchen waste?",
+      "answer": "Most fruit and vegetable scraps, tea leaves, and eggshells can be composted. Avoid composting meat, dairy, and oily foods in home compost bins as they can attract pests and cause odor."
+    },
+    {
+      "question": "What should I do with old batteries?",
+      "answer": "Old batteries are hazardous/e-waste and should be dropped off at designated e-waste or battery collection points, never thrown in regular trash."
+    },
+    {
+      "question": "How can I reduce plastic waste at home?",
+      "answer": "Use reusable bags, bottles, and containers, avoid buying over-packaged products, and choose products with recyclable or minimal packaging."
+    }
+  ]
+}
